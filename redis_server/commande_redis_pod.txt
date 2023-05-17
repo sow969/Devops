@@ -1,0 +1,4 @@
+kubectl exec -it <pod-name> -- redis-cli
+KEYS *
+GET <key>
+INFO
